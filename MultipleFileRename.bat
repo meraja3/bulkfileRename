@@ -1,12 +1,12 @@
 
-set message=YASREF-DL-CFIF- //FileName 
-SET /A i= 200000 //for number increase
+set message=NewFileName-CAT-SubCatagory- 
+SET /A i= 200000 
 :loop 
 
 IF %i%==200300 GOTO END 
 echo The value of i is %i% 
 
-ren *.pdf %message%%i%.pdf //format with rename (eg. pdf format)
+ren *.pdf %message%%i%.pdf 
 
 SET /a i=%i%+1 
 GOTO :LOOP 
