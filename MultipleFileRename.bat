@@ -12,3 +12,7 @@ SET /a i=%i%+1
 GOTO :LOOP 
 :END
 
+
+
+aur folder me ja kr cmd open karna hai aur simple ye code run kr dena hai 
+ren *.HEIC *.jpg
